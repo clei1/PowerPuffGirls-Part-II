@@ -6,4 +6,4 @@
 
 ## LAB #01
 
-
+## https://www.desmos.com/calculator/sqyuwfwv20
