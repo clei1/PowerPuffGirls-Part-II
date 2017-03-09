@@ -15,10 +15,10 @@
   n=10      time: 
   n=100     time: 
   ...
-  n=<huge>  time: 
+  n=<huge>  time: nlogn
 
   ANALYSIS:
-  
+  On average, the run time is nlogn because the sort function itself runs recursively with a logn runtime, and it calls partition, which has an n runtime. Everytime we iterate through, we look at the two partitioned pieces, and the partition value is left in it's final resting place. We continue to do this on each partitioned piece until the values are all in their final resting places. In the best case, the partition value would be the median of the array, so the array would split directly in half. In the worst case, the partition value would be an extreme of the values in the data set, so the array would have to partition n times and would take n squared. 
   
 
   =======================================*/
