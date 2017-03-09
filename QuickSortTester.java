@@ -56,7 +56,7 @@ public class QuickSortTester
 		    //outputStream.print(a.length + ", " + duration + "\n");
 		}
 		avg /= numTest;
-		System.out.println("Average time for array length " + a.length + " is " + avg);
+		//System.out.println("Average time for array length " + a.length + " is " + avg);
 		outputStream.print(a.length + ", " + avg + "\n");
 	    }
 
