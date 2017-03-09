@@ -17,3 +17,5 @@
 ##### The classification for best case scenario is O(n log n). Our algorithm could potentially always choose the median in the array as the pivot point meaning we create two separate sections of equal length. This means each time, it will be evenly divide in half and iterate through the sections, which add up to n. If you go through it log n times, and each time you go through n terms, then it is O(n log n).
 
 ##### The classification for the average case scenario is O(n log n). Our algorithm could potentially choose any number in the array as the pivot point. This means there is an equal chance of any length array. The number of times you will go through the list will be averaged to log n and since each time you go through n terms, then you have O(n log n). It is rare to have the worst case scenario and so you will often have gone through the array xlog n times.
+
+##### The pivot point determines whether the run time whether it be average, worst or best case scenario. If the pivot is always the median, it ensures it always runs the fastest and always has a runtime of O(n log n).
