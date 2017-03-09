@@ -1,3 +1,9 @@
+// Team PowerPuffGirls-Part-II (Yedoh Kang, Connie Lei, Donia Tung)
+// APCS2 pd1
+// LAB01 -- What Does the Data Say?
+// 2017-03-09
+
+
 /*****************************************************
  * class QuickSort
  * Implements quicksort algo to sort an array of ints in place
