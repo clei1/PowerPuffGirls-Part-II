@@ -49,7 +49,7 @@ public class QuickSortTester
 		for(int x = 0; x < numTest; x ++){
 		    QuickSort.shuffle(a);
 		    long startTime = System.nanoTime();
-		    QuickSort.qsort(a);
+		    QuickSort.qsort(a, 0, a.length-1);
 		    long endTime   = System.nanoTime();
 		    long duration  = endTime - startTime;
 		    avg += duration;
