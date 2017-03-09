@@ -58,7 +58,7 @@
     {
 	if (left < right)
 	    {
-		int pvtPos = partition (d, left, right, right-1);
+		int pvtPos = partition (d, left, right, (int)(left+(Math.random()*(right-left))));
 		qsort (d, left, pvtPos-1);
 		qsort (d, pvtPos+1, right);
 	    }
