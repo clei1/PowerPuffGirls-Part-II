@@ -10,11 +10,8 @@
   O(nlogn)
 
   Mean execution times for dataset of size n:
-  Batch size: 10000000
-  n=1       time: 
-  n=10      time: 
-  n=100     time: 
-  ...
+  look in csv!!!
+  
   n=<huge>  time: nlogn
 
   ANALYSIS:
