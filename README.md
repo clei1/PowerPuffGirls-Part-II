@@ -30,4 +30,4 @@
 
 #### How does the pivot selection and data arrangement affect execution time?
 
-##### The pivot point determines whether the run time is the average, worst or best case scenario. If the pivot is always the median, it ensures that it will have a runtime of O(nlogn). 
+##### The pivot point determines whether the run time is the average, worst or best case scenario. If the pivot is always the median, it ensures that it will have a runtime of O(nlogn). For data arrangement, if the elements are in descending or ascending order, the execution time would be slightly less (milliseconds) than the execution time of a random arrangement of elements. However, overall, the runtime of partition would still be O(n).
